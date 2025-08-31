@@ -12,7 +12,7 @@ import tsEslint from "typescript-eslint";
 export default tsEslint.config([
   { ignores: ["dist", "*.config.js"] },
   {
-    files: ["**/*.{ts,tsx}"],
+    files: ["**/*.{ts,tsx,js,jsx}"],
     extends: [
       js.configs.recommended,
       jsxA11y.flatConfigs.recommended,

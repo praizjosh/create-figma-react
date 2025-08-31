@@ -1,6 +1,6 @@
 {
-    "name": "Create React Figma Plugin",
-    "id": "com.yourname.create-react-figma-plugin",
+    "name": "Create Figma React Plugin",
+    "id": "com.yourname.create-figma-react-plugin",
     "api": "1.0.0",
     "main": "dist/code.js",
     "ui": "dist/index.html",
