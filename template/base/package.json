@@ -1,19 +1,8 @@
 {
   "name": "my-vite-plugin",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
-  "keywords": [
-    "figma",
-    "plugin",
-    "react",
-    "vite",
-    "boilerplate",
-    "starter",
-    "create",
-    "quick start",
-    "template"
-  ],
   "scripts": {
     "dev": "npm run start",
     "build": "tsc -b && vite build --emptyOutDir=false && npm run build:main",
@@ -27,18 +16,13 @@
     "start": "concurrently -n tsc,build,vite -c yellow,blue,green \"npm run tsc:watch\" \"npm run build:main:watch\" \"vite\"",
     "tsc:watch": "tsc -b --watch --preserveWatchOutput"
   },
-  "bin": {
-    "create-figma-react-plugin": "./bin/create-figma-react-plugin.js"
-  },
-  "files": [
-    "bin",
-    "template"
-  ],
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
     "@eslint/js": "^9.33.0",
     "@figma/eslint-plugin-figma-plugins": "^0.16.1",
     "@figma/plugin-typings": "^1.117.0",
@@ -58,8 +42,8 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "globals": "^16.3.0",
+    "husky": "^9.1.7",
     "lint-staged": "^16.1.5",
-    "prettier": "3.6.2",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.39.1",
     "vite": "^7.1.2",

@@ -4,6 +4,11 @@
     "api": "1.0.0",
     "main": "dist/code.js",
     "ui": "dist/index.html",
+    "capabilities": [
+        "inspect",
+        "vscode"
+    ],
+    "enableProposedApi": false,
     "editorType": [
         "dev",
         "figma",

@@ -3,15 +3,12 @@
   "version": "1.0.0",
   "type": "module",
   "bin": {
-    "create-figma-react": "bin/create-figma-react-plugin.js"
+    "create-figma-react": "./bin/create-figma-react-plugin.js"
   },
   "files": [
     "bin",
     "template"
   ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/praizjosh/create-figma-react.git"
@@ -37,6 +34,7 @@
   },
   "homepage": "https://github.com/praizjosh/create-figma-react#readme",
   "dependencies": {
+    "fs-extra": "^11.3.1",
     "inquirer": "^12.9.4"
   }
 }

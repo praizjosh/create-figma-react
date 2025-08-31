@@ -3,7 +3,7 @@ import eslintParser from "@typescript-eslint/parser";
 import jsxA11y from "eslint-plugin-jsx-a11y";
 import pluginPrettierRecommended from "eslint-plugin-prettier/recommended";
 import pluginReact from "eslint-plugin-react";
-import reactHooks from 'eslint-plugin-react-hooks';
+import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
 import pluginSimpleImportSort from "eslint-plugin-simple-import-sort";
 import globals from "globals";
@@ -75,7 +75,7 @@ export default tsEslint.config([
       "jsx-a11y/label-has-associated-control": 0,
       "jsx-a11y/alt-text": "error",
       "jsx-a11y/anchor-is-valid": 0,
-       "react/react-in-jsx-scope": "off",
+      "react/react-in-jsx-scope": "off",
     },
   },
 ]);
