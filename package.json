@@ -15,6 +15,10 @@
   },
   "keywords": [
     "figma",
+    "figma-plugin",
+    "create-figma-plugin",
+    "figma-react",
+    "figjam",
     "plugin",
     "react",
     "vite",
@@ -22,7 +26,11 @@
     "starter",
     "create",
     "startup",
-    "quickstart"
+    "quickstart",
+    "template",
+    "typescript",
+    "cli",
+    "scaffolding"
   ],
   "author": {
     "name": "Josh Praise",
