@@ -1,9 +1,9 @@
 {
-  "name": "create-figma-react",
+  "name": "create-figma-react-plugin",
   "version": "1.0.0",
   "type": "module",
   "bin": {
-    "create-figma-react": "./bin/create-figma-react-plugin.js"
+    "create-figma-react-plugin": "./bin/create-figma-react-plugin.js"
   },
   "files": [
     "bin",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/praizjosh/create-figma-react.git"
+    "url": "git+https://github.com/praizjosh/create-figma-react-plugin.git"
   },
   "keywords": [
     "figma",
@@ -30,9 +30,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/praizjosh/create-figma-react/issues"
+    "url": "https://github.com/praizjosh/create-figma-react-plugin/issues"
   },
-  "homepage": "https://github.com/praizjosh/create-figma-react#readme",
+  "homepage": "https://github.com/praizjosh/create-figma-react-plugin#readme",
   "dependencies": {
     "fs-extra": "^11.3.1",
     "inquirer": "^12.9.4"

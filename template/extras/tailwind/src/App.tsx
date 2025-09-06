@@ -13,9 +13,9 @@ function App() {
 
   return (
     <>
-      <div className="panel">
-        <h1 className="panel-title">🚀 Figma Plugin Starter</h1>
-        <p className="panel-desc">
+      <div className="p-4 space-y-3 text-sm font-sans">
+        <h1 className="text-lg font-semibold">🚀 Figma Plugin Starter</h1>
+        <p className="text-[#dfdfdf]">
           Use this panel to interact with your plugin. Update controls as needed.
         </p>
 
@@ -24,14 +24,20 @@ function App() {
           type="number"
           value={count}
           onChange={(e) => setCount(Number(e.target.value))}
-          className="input"
+          className="w-full border rounded px-2 py-1"
         />
 
-        <button onClick={createRect} className="button button-blue">
+        <button
+          onClick={createRect}
+          className="w-full bg-blue-600 text-white rounded py-1 hover:bg-blue-700"
+        >
           Create Rectangle
         </button>
 
-        <button onClick={onCancel} className="button button-red">
+        <button
+          onClick={onCancel}
+          className="w-full bg-red-600 text-white rounded py-1 hover:bg-red-700"
+        >
           Cancel
         </button>
       </div>

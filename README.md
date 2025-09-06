@@ -1,7 +1,20 @@
 # Create Figma React Plugin
 
 A CLI tool to scaffold Figma plugins with **React + Vite**.  
-Includes optional extras like **Tailwind CSS v4, Prettier**.
+Includes optional extras like **Tailwind CSS v4, Prettier and Shadcn UI**.
+
+---
+
+## 📦 Installation
+
+```bash
+# Using npx (recommended)
+npx create-figma-react-plugin my-plugin
+
+# Or install globally
+npm install -g create-figma-react-plugin
+create-figma-react-plugin my-plugin
+```
 
 ---
 
@@ -16,7 +29,7 @@ You’ll be prompted for:
 - Plugin name
 - Plugin ID (reverse-domain format, e.g. `com.example.myplugin`)
 - Description
-- Extras (Tailwind, Prettier)
+- Extras (Prettier, Tailwind CSS, Shadcn UI)
 
 ---
 
@@ -33,48 +46,52 @@ my-plugin/
 │   └── ui.tsx
 ```
 
-If you select **Tailwind**, config files will be added and `vite.config.ts` will be extended.
+If you select **Tailwind CSS (and/or Shadcn UI)**, config files will be added and `vite.config.ts` will be extended.
 
 ---
 
 ## 🛠 Development
 
-To run locally without publishing:
+After scaffolding your plugin, run:
 
 ```bash
-# Clone repo
-git clone https://github.com/yourname/create-figma-react-plugin
-cd create-figma-react-plugin
-
-# Install deps
-npm install
-
-# Link CLI globally
-npm link
+cd my-plugin
+npm run dev
 ```
 
-Now you can test with:
-
-```bash
-create-figma-react-plugin my-test-plugin
-```
+This will start the Vite dev server. Open the Figma desktop app, go to `Plugins > Development > Import Plugin from Manifest...` and select your plugin's `manifest.json`.
 
 ---
 
-## 📦 Publishing
+## ❓ Troubleshooting & FAQ
 
-To publish a new version:
+- **Error: Cannot find module ...**
+  - Make sure you are using Node.js v18 or newer.
+  - Ensure you ran `npm install` in your plugin directory.
+- **How do I add more extras later?**
+  - You can manually install Prettier, Tailwind CSS, or Shadcn UI by following their docs.
+- **How do I update my plugin?**
+  - Edit your code and re-run `npm run build`.
+- **Where can I get help?**
+  - [GitHub Issues](https://github.com/praizjosh/create-figma-react-plugin/issues)
 
-```bash
-npm version patch   # or minor / major
-npm publish --access public
-```
+---
+
+## 📖 Documentation
+
+- [Figma Plugin API](https://www.figma.com/plugin-docs/intro/)
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Prettier](https://prettier.io/)
+- [Shadcn UI](https://ui.shadcn.com/)
 
 ---
 
 ## ✨ Features
 - ⚡ React + Vite for fast builds
-- 🎨 Tailwind CSS v4 (optional)
 - 🧹 Prettier (optional)
+- 🎨 Tailwind CSS v4 (optional)
+- 🎨 Shadcn UI (optional)
 - 🗂 Reverse-domain plugin ID support
 - 🚀 Zero-config setup

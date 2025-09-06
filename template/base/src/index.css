@@ -28,6 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  flex-direction: column;
 }
 
 h1 {
@@ -52,6 +53,57 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.panel {
+  padding: 1rem;
+  font-size: 0.875rem;
+  font-family: sans-serif;
+}
+
+.panel > * + * {
+  margin-top: 0.75rem;
+}
+
+.panel-title {
+  font-weight: 600;
+}
+
+.panel-desc {
+  color: #dfdfdf;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.button {
+  width: 100%;
+  color: #fff;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0;
+  font: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.button-blue {
+  background: #2563eb;
+}
+
+.button-blue:hover {
+  background: #1d4ed8;
+}
+
+.button-red {
+  background: #dc2626;
+}
+
+.button-red:hover {
+  background: #b91c1c;
 }
 
 @media (prefers-color-scheme: light) {
