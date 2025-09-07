@@ -1,9 +1,17 @@
 # Create Figma React Plugin
 
-A CLI tool to scaffold Figma plugins with **React + Vite**.  
-Includes optional extras like **Tailwind CSS v4, Prettier and Shadcn UI**.
+A CLI tool to scaffold **Figma plugins** using **React**, **Vite**, and **TypeScript** — with optional extras like **Prettier**, **Tailwind CSS** and **Shadcn UI**.
+
 
 ---
+
+## 🚀 Quick Start
+
+The easiest way to get started is using **npx**:
+
+```bash
+npx create-figma-react-plugin my-plugin
+```
 
 ## 📦 Installation
 
@@ -30,6 +38,16 @@ You’ll be prompted for:
 - Plugin ID (reverse-domain format, e.g. `com.example.myplugin`)
 - Description
 - Extras (Prettier, Tailwind CSS, Shadcn UI)
+
+---
+
+This will generate a new Figma plugin project in the my-plugin folder with:
+
+⚡ React + Vite for fast dev experience
+
+🏗️ TypeScript for type safety
+
+🎨 Optional extras like Tailwind CSS and Shadcn UI
 
 ---
 
@@ -89,9 +107,23 @@ This will start the Vite dev server. Open the Figma desktop app, go to `Plugins 
 ---
 
 ## ✨ Features
-- ⚡ React + Vite for fast builds
+- ⚡ React + Vite for blazing fast builds
+- 🏗️ TypeScript out of the box
 - 🧹 Prettier (optional)
 - 🎨 Tailwind CSS v4 (optional)
 - 🎨 Shadcn UI (optional)
 - 🗂 Reverse-domain plugin ID support
 - 🚀 Zero-config setup
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to open an [issue](https://github.com/praizjosh/create-figma-react-plugin/issues) or submit a [PR](https://github.com/praizjosh/create-figma-react-plugin/pulls).
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
