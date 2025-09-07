@@ -2,13 +2,17 @@ name: CI & Publish NPM Package
 
 on:
   push:
-    branches:
-      - main
-      - next
+    branches: [main, next]
 
   pull_request:
-    branches:
-      - next
+    branches: [next]
+    types: [opened, synchronize, reopened, ready_for_review]
+
+    paths:
+      - "package.json"
+      - "tests/**"
+      - "template/**"
+      - "bin/**"
 
 jobs:
   build-test-and-publish:
