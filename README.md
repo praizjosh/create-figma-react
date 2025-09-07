@@ -2,7 +2,6 @@
 
 A CLI tool to scaffold **Figma plugins** using **React**, **Vite**, and **TypeScript** — with optional extras like **Prettier**, **Tailwind CSS** and **Shadcn UI**.
 
-
 ---
 
 ## 🚀 Quick Start
@@ -14,6 +13,13 @@ npx create-figma-react-plugin my-plugin
 ```
 
 ## 📦 Installation
+
+
+[![npm version](https://img.shields.io/npm/v/create-figma-react-plugin.svg?color=blue&logo=npm)](https://www.npmjs.com/package/create-figma-react-plugin)
+[![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
+[![Weekly Downloads](https://img.shields.io/npm/dw/create-figma-react-plugin?color=success)](https://www.npmjs.com/package/create-figma-react-plugin)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 ```bash
 # Using npx (recommended)
