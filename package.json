@@ -2,11 +2,11 @@
   "name": "create-figma-react-plugin",
   "version": "1.0.1",
   "type": "module",
+  "description": "A CLI tool to scaffold Figma plugins using React, Vite, and TypeScript — with optional extras like Prettier, Tailwind CSS and Shadcn UI.",
   "scripts": {
     "test": "vitest run",
     "coverage": "vitest run --coverage"
   },
-  "description": "A CLI tool to scaffold Figma plugins using React, Vite, and TypeScript — with optional extras like Prettier, Tailwind CSS and Shadcn UI.",
   "bin": {
     "create-figma-react-plugin": "./bin/create-figma-react-plugin.js"
   },
@@ -55,5 +55,27 @@
     "@vitest/coverage-v8": "^3.2.4",
     "semantic-release": "^24.2.7",
     "vitest": "^3.2.4"
+  },
+  "release": {
+    "branches": [
+      "main",
+      "next"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "package.json",
+            "CHANGELOG.md"
+          ],
+          "message": "chore(release): ${nextRelease.version} \n\n${nextRelease.notes}"
+        }
+      ],
+      "@semantic-release/github"
+    ]
   }
 }
