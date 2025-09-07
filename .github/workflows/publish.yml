@@ -10,7 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
       
       # Setup .npmrc file to publish to npm
       - name: Setup Node
@@ -26,19 +27,7 @@ jobs:
         run: npm test
 
       - name: Release version
-        run: npm run release
-
-      - name: Check if package.json changed
-        id: pkg
-        run: |
-          git fetch origin main
-          if ! git diff --quiet origin/main package.json; then
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Publish to NPM
-        if: steps.pkg.outputs.changed == 'true'
-        run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run release
