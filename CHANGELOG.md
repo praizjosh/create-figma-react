@@ -1,3 +1,12 @@
+## [1.3.1](https://github.com/praizjosh/create-figma-react-plugin/compare/v1.3.0...v1.3.1) (2025-09-08)
+
+
+### Bug Fixes
+
+* add config directory to workflow paths ([1671700](https://github.com/praizjosh/create-figma-react-plugin/commit/167170017a2279f440847cad86ab5ff6218d87e1))
+* add config to paths and npm cli files ([2c29f7c](https://github.com/praizjosh/create-figma-react-plugin/commit/2c29f7c137a51cb9a5861107ac95334f164e1f38))
+* reorder files in package.json ([47b2393](https://github.com/praizjosh/create-figma-react-plugin/commit/47b23930daba63ddae7efb665908b87afb53093f))
+
 # [1.3.0](https://github.com/praizjosh/create-figma-react-plugin/compare/v1.2.0...v1.3.0) (2025-09-08)
 
 
