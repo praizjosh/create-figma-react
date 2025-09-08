@@ -12,6 +12,7 @@ on:
       - "package.json"
       - "tests/**"
       - "template/**"
+      - "config/**"
       - "bin/**"
 
 jobs:
