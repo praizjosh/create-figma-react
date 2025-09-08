@@ -38,11 +38,11 @@
     "cli",
     "scaffolding"
   ],
+  "license": "MIT",
   "author": {
     "name": "Josh Praise",
     "email": "praizjosh@outlook.com"
   },
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/praizjosh/create-figma-react-plugin/issues"
   },
