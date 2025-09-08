@@ -1,7 +1,12 @@
 import fs from "fs-extra";
 import path from "path";
 import { beforeEach, describe, expect, it, vi } from "vitest";
-import { copyBaseTemplate, copyExtras, updateManifest, updatePackageJson } from "../bin/config.js";
+import {
+  copyBaseTemplate,
+  copyExtras,
+  updateManifest,
+  updatePackageJson,
+} from "../config/bin.config";
 
 vi.mock("fs-extra");
 

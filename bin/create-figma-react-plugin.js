@@ -4,7 +4,12 @@ import { execSync } from "child_process";
 import fs from "fs-extra";
 import inquirer from "inquirer";
 import path from "path";
-import { copyBaseTemplate, copyExtras, updateManifest, updatePackageJson } from "./config.js";
+import {
+  copyBaseTemplate,
+  copyExtras,
+  updateManifest,
+  updatePackageJson,
+} from "../config/bin.config.js";
 
 async function run() {
   console.log("✨ Create Figma React Plugin");
