@@ -1,6 +1,6 @@
 {
   "name": "create-figma-react-plugin",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "type": "module",
   "description": "Quickly scaffold Figma plugins with React, Vite & TypeScript — includes Prettier, Tailwind CSS, and Shadcn UI for a modern, fast setup.",
   "scripts": {
