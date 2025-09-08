@@ -2,7 +2,7 @@
   "name": "create-figma-react-plugin",
   "version": "1.3.0",
   "type": "module",
-  "description": "A CLI tool to scaffold Figma plugins using React, Vite, and TypeScript — with optional extras like Prettier, Tailwind CSS and Shadcn UI.",
+  "description": "Quickly scaffold Figma plugins with React, Vite & TypeScript — includes Prettier, Tailwind CSS, and Shadcn UI for a modern, fast setup.",
   "scripts": {
     "test": "vitest run",
     "coverage": "vitest run --coverage",
