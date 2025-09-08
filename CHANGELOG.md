@@ -1,3 +1,14 @@
+# [1.2.0](https://github.com/praizjosh/create-figma-react-plugin/compare/v1.1.0...v1.2.0) (2025-09-08)
+
+
+### Features
+
+* **semver:** add semantic-release to workflow on next branch ([3913a84](https://github.com/praizjosh/create-figma-react-plugin/commit/3913a844f19a64a186c7d595ac3509e2c1a9f626))
+* **semver:** add semantic-release to workflow on next branch ([7df6efb](https://github.com/praizjosh/create-figma-react-plugin/commit/7df6efb457bb46bad64fa7c1772421d99ea884a9))
+* **semver:** add semantic-release to workflow on next branch ([f7a999f](https://github.com/praizjosh/create-figma-react-plugin/commit/f7a999fbd9153dcb70be917945b069168477f6de))
+* **semver:** add semantic-release to workflow on next branch ([8be8950](https://github.com/praizjosh/create-figma-react-plugin/commit/8be8950d7c48d377228cac9da5893af06617ebf4))
+* **semver:** add semantic-release to workflow on next branch ([e43eec5](https://github.com/praizjosh/create-figma-react-plugin/commit/e43eec5f40b27c4c8dcfb7b9795e018a8a6433ad))
+
 # [1.1.0](https://github.com/praizjosh/create-figma-react-plugin/compare/v1.0.1...v1.1.0) (2025-09-07)
 
 
