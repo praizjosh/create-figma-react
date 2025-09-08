@@ -59,8 +59,8 @@ function setupTailwind(projectPath) {
 function updatePackageJson(projectPath, projectName, extras) {
   const pkgPath = path.join(projectPath, "package.json");
   const pkg = JSON.parse(fs.readFileSync(pkgPath, "utf-8"));
-  pkg.name = projectName;
 
+  pkg.name = projectName;
   pkg.devDependencies = pkg.devDependencies || {};
   pkg.dependencies = pkg.dependencies || {};
 
