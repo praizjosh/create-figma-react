@@ -1,3 +1,13 @@
+# [1.3.0](https://github.com/praizjosh/create-figma-react-plugin/compare/v1.2.0...v1.3.0) (2025-09-08)
+
+
+### Features
+
+* add husky and lint-staged to CI steps ([dc0359b](https://github.com/praizjosh/create-figma-react-plugin/commit/dc0359b8714ca4a5083e3732c5576309a061c9ed))
+* add husky and lint-staged to CI steps ([32fa021](https://github.com/praizjosh/create-figma-react-plugin/commit/32fa021563ea9ff1f0faeb1ab887438546d18335))
+* add husky to CI ([97f02a3](https://github.com/praizjosh/create-figma-react-plugin/commit/97f02a39feb9b61274ed0f7817929c2825ab4ed4))
+* add husky to CI steps ([138ec4a](https://github.com/praizjosh/create-figma-react-plugin/commit/138ec4aaca3a845bfabc87d2346745fbb4b95691))
+
 # [1.2.0](https://github.com/praizjosh/create-figma-react-plugin/compare/v1.1.0...v1.2.0) (2025-09-08)
 
 
